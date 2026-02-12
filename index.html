@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adesh Sakthivel | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <!-- Sticky navigation -->
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#top">&lt;/adesh&gt;</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about" data-section="about">/about</a>
+          <a href="#stack" data-section="stack">/stack</a>
+          <a href="#projects" data-section="projects">/projects</a>
+          <a href="#contact" data-section="contact">/contact</a>
+          <span class="nav-underline" aria-hidden="true"></span>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+          <p class="code-line">const developer = "Adesh Sakthivel";</p>
+          <h1>
+            Junior Developer
+            <span>3rd Year B.Tech IT Student</span>
+          </h1>
+          <p class="intro">
+            I am a curious builder from Tamil Nadu, India who enjoys crafting clean
+            web apps, learning modern tooling, and shipping practical features for
+            real users.
+          </p>
+          <p class="typewriter" aria-live="polite">
+            Learning &bull; Building &bull; Improving
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects &rarr;</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </div>
+          <div class="pixel-decor">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="hero-quote note-card">
+          <p>"Every small release is a step toward the big goal."</p>
+          <span>Currently focused on full stack fundamentals.</span>
+          <em>Coding Mantra</em>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section reveal">
+        <div class="section-header">
+          <h2>/about</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="about-grid">
+          <div class="about-media">
+            <div class="avatar">
+              <img src="./assets/profile.jpg" alt="Adesh Sakthivel" />
+              <div class="avatar-fallback">
+                <span>AS</span>
+              </div>
+            </div>
+            <div class="about-card">
+              <div>
+                <h3>Adesh Sakthivel</h3>
+                <p>3rd Year B.Tech IT Student</p>
+              </div>
+              <a class="btn ghost" href="#contact">Let's Connect</a>
+            </div>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                I am Adesh Sakthivel, a 3rd year IT student at Mailam Engineering
+                College. I like learning by building and improving small apps into
+                real portfolio projects. I am open to internships and junior roles
+                where I can grow fast with good mentorship.
+              </p>
+              <p>
+                My current interests include full stack development, cloud basics,
+                and AI fundamentals. I want to join an MNC by 2027 and keep leveling
+                up my engineering craft.
+              </p>
+            </div>
+            <div class="facts">
+              <div class="fact-card">
+                <h3>College</h3>
+                <p>Mailam Engineering College</p>
+              </div>
+              <div class="fact-card">
+                <h3>Year</h3>
+                <p>3rd Year</p>
+              </div>
+              <div class="fact-card">
+                <h3>Interests</h3>
+                <p>Full Stack, Cloud basics, AI basics</p>
+              </div>
+              <div class="fact-card">
+                <h3>Goal</h3>
+                <p>Internship + MNC by 2027</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stack -->
+      <section id="stack" class="section reveal">
+        <div class="section-header">
+          <h2>/stack</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="stack-head">
+          <h3>My Tech Stack</h3>
+          <div class="filters">
+            <button class="filter active" data-filter="all">all</button>
+            <button class="filter" data-filter="frontend">frontend</button>
+            <button class="filter" data-filter="backend">backend</button>
+            <button class="filter" data-filter="database">database</button>
+            <button class="filter" data-filter="frameworks">frameworks</button>
+            <button class="filter" data-filter="tools">tools</button>
+            <button class="filter" data-filter="cloud">cloud/devops</button>
+          </div>
+        </div>
+        <div class="tech-grid">
+          <button class="tech-pill" data-category="frontend" data-tech="HTML">
+            <span>HTML</span>
+          </button>
+          <button class="tech-pill" data-category="frontend" data-tech="CSS">
+            <span>CSS</span>
+          </button>
+          <button class="tech-pill" data-category="frontend" data-tech="JavaScript">
+            <span>JavaScript</span>
+          </button>
+          <button class="tech-pill" data-category="frontend" data-tech="Bootstrap">
+            <span>Bootstrap</span>
+          </button>
+          <button class="tech-pill" data-category="frontend" data-tech="Responsive UI">
+            <span>Responsive UI</span>
+          </button>
+          <button class="tech-pill" data-category="backend" data-tech="Python">
+            <span>Python</span>
+          </button>
+          <button class="tech-pill" data-category="backend" data-tech="FastAPI">
+            <span>FastAPI (learning)</span>
+          </button>
+          <button class="tech-pill" data-category="backend" data-tech="Node.js">
+            <span>Node.js (basic)</span>
+          </button>
+          <button class="tech-pill" data-category="backend" data-tech="REST APIs">
+            <span>REST APIs</span>
+          </button>
+          <button class="tech-pill" data-category="frameworks" data-tech="Django">
+            <span>Django</span>
+          </button>
+          <button class="tech-pill" data-category="database" data-tech="MongoDB">
+            <span>MongoDB</span>
+          </button>
+          <button class="tech-pill" data-category="database" data-tech="MySQL">
+            <span>MySQL (basic)</span>
+          </button>
+          <button class="tech-pill" data-category="tools" data-tech="Git/GitHub">
+            <span>Git/GitHub</span>
+          </button>
+          <button class="tech-pill" data-category="tools" data-tech="VS Code">
+            <span>VS Code</span>
+          </button>
+          <button class="tech-pill" data-category="cloud" data-tech="Vercel">
+            <span>Vercel</span>
+          </button>
+          <button class="tech-pill" data-category="cloud" data-tech="Render">
+            <span>Render (basic)</span>
+          </button>
+          <button class="tech-pill" data-category="cloud" data-tech="Docker">
+            <span>Docker (learning)</span>
+          </button>
+          <button class="tech-pill" data-category="cloud" data-tech="Linux">
+            <span>Linux basics</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section reveal">
+        <div class="section-header">
+          <h2>/projects</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card" data-project="fyxion">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>FYXION (Main Project)</h3>
+              <p class="project-sub">Technician + User Integration App</p>
+              <ul>
+                <li>Unified request flow for technicians &amp; users.</li>
+                <li>Role-based dashboards for clean UX.</li>
+                <li>Tracked ticket status in one view.</li>
+              </ul>
+              <div class="tag-row">
+                <span>UI/UX</span><span>APIs</span><span>Workflow</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-project="stock">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>AI Stock Price Prediction</h3>
+              <p class="project-sub">LSTM Forecasting Model</p>
+              <ul>
+                <li>Time-series preprocessing pipeline.</li>
+                <li>Evaluated forecast accuracy metrics.</li>
+                <li>Clear reporting for trends.</li>
+              </ul>
+              <div class="tag-row">
+                <span>Python</span><span>LSTM</span><span>Data</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-project="tech-ui">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Technician Frontend</h3>
+              <p class="project-sub">Swiggy-style separate UI</p>
+              <ul>
+                <li>Fast navigation between orders.</li>
+                <li>Status chips for service calls.</li>
+                <li>Mobile-first layout.</li>
+              </ul>
+              <div class="tag-row">
+                <span>HTML</span><span>CSS</span><span>UX</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-project="landing">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Responsive Landing Page</h3>
+              <p class="project-sub">Small Frontend Project</p>
+              <ul>
+                <li>Hero, features, and CTA layout.</li>
+                <li>Flexible grid for all screens.</li>
+                <li>Reusable sections.</li>
+              </ul>
+              <div class="tag-row">
+                <span>HTML</span><span>CSS</span><span>Responsive</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-project="todo">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>To-Do App</h3>
+              <p class="project-sub">LocalStorage</p>
+              <ul>
+                <li>LocalStorage persistence.</li>
+                <li>Quick add/remove actions.</li>
+                <li>Minimal UI for focus.</li>
+              </ul>
+              <div class="tag-row">
+                <span>JavaScript</span><span>LocalStorage</span><span>UI</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card" data-project="weather">
+            <div class="project-thumb"></div>
+            <div class="project-body">
+              <h3>Weather UI</h3>
+              <p class="project-sub">API-ready UI</p>
+              <ul>
+                <li>Forecast cards with icons.</li>
+                <li>Clean dark layout.</li>
+                <li>Ready for API integration.</li>
+              </ul>
+              <div class="tag-row">
+                <span>CSS</span><span>UI</span><span>API</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">GitHub</a>
+                <a href="#" class="external">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z" />
+                      <path d="M5 5h6v2H7v10h10v-4h2v6H5V5z" />
+                    </svg>
+                  </span>
+                  Live
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <a class="more-link" href="https://github.com/adhi-svg" target="_blank" rel="noopener">
+          View more on GitHub &nearr;
+        </a>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section reveal">
+        <div class="section-header">
+          <h2>/contact</h2>
+          <span class="section-line"></span>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-text">
+            <h3>Let's connect</h3>
+            <p>
+              I am open to internships, project collaborations, and junior roles.
+              Drop a message and I will respond soon.
+            </p>
+            <div class="socials">
+              <a href="https://linkedin.com/in/adeshsakthivel" target="_blank" rel="noopener">
+                <span class="icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4zM8.5 8.5h3.8v2.1h.1c.5-1 1.9-2.1 4-2.1 4.3 0 5.1 2.8 5.1 6.5V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9-2.4 0-2.8 1.9-2.8 3.8V24h-4z"
+                    />
+                  </svg>
+                </span>
+                LinkedIn
+              </a>
+              <a href="https://github.com/adhi-svg" target="_blank" rel="noopener">
+                <span class="icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.12.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.83 1.32 3.52 1 .11-.78.42-1.32.76-1.62-2.66-.3-5.46-1.33-5.46-5.92 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.6-2.8 5.62-5.48 5.92.43.37.82 1.1.82 2.22 0 1.6-.01 2.89-.01 3.28 0 .32.21.71.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"
+                    />
+                  </svg>
+                </span>
+                GitHub
+              </a>
+              <a href="mailto:adeshsakthivel@gmail.com">
+                <span class="icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm10 7.2L3.6 6h16.8L12 11.2z" />
+                  </svg>
+                </span>
+                Email
+              </a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your idea" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="detailModal" aria-hidden="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="modal-tags" id="modalTags"></div>
+        <ul id="modalFeatures"></ul>
+        <div class="modal-links" id="modalLinks"></div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast">Message saved (demo)</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
